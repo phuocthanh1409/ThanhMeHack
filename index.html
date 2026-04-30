@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thạnh Mê Hack - Script Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #ff0000;
+            margin-top: 20px;
+            object-fit: cover;
+        }
+        h1 { color: #ff0000; margin-bottom: 30px; }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        .section {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            min-height: 200px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #ff0000;
+            padding-bottom: 10px;
+        }
+        .script-item {
+            background: #2d2d2d;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left;
+        }
+        .copy-btn {
+            background: #ff0000;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-size: 12px;
+            float: right;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #888;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hình đại diện -->
+    <img src="https://lh3.googleusercontent.com/d/1X_mUaX_k567_Z_H_L_F_J_V_Q_K_X_G_W" alt="Avatar" class="profile-img">
+    
+    <h1>Thạnh Mê Hack Script Hub</h1>
+
+    <div class="container">
+        <!-- Ngăn 1: Thạnh Script -->
+        <div class="section">
+            <h2>Thạnh Script</h2>
+            <div class="script-item">
+                <span>ThanhMeHack EXE</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/qN0tgloU/raw\'))()')">Copy</button>
+            </div>
+            <!-- Bạn có thể thêm script mới ở dưới đây -->
+        </div>
+
+        <!-- Ngăn 2: Script Thú Vị -->
+        <div class="section">
+            <h2>Script Thú Vị</h2>
+            <div class="script-item">
+                <span>Infinite Yield</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/Edgeiy/infiniteyield/master/source\'))()')">Copy</button>
+            </div>
+            <!-- Bạn có thể thêm script mới ở dưới đây -->
+        </div>
+    </div>
+
+    <!-- Bản quyền -->
+    <footer>
+        &copy; 2026 Bản quyền thuộc về Thạnh Mê Hack.
+    </footer>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Đã copy loadstring!");
+            });
+        }
+    </script>
+
+</body>
+</html>
