@@ -21,7 +21,7 @@
             margin-top: 20px;
             object-fit: cover;
         }
-        h1 { color: #ff0000; margin-bottom: 30px; }
+        h1 { color: #ff0000; margin-bottom: 30px; text-transform: uppercase; }
         .container {
             display: flex;
             justify-content: center;
@@ -34,29 +34,42 @@
             border: 1px solid #333;
             border-radius: 10px;
             padding: 20px;
-            width: 300px;
-            min-height: 200px;
+            width: 380px;
+            min-height: 250px;
         }
         .section h2 {
             border-bottom: 2px solid #ff0000;
             padding-bottom: 10px;
+            color: #fff;
         }
         .script-item {
             background: #2d2d2d;
             margin: 10px 0;
-            padding: 10px;
+            padding: 12px;
             border-radius: 5px;
             text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .script-name {
+            font-weight: bold;
+            color: #00ff7f;
+            font-size: 14px;
         }
         .copy-btn {
             background: #ff0000;
             color: white;
             border: none;
-            padding: 5px 10px;
+            padding: 6px 12px;
             cursor: pointer;
-            border-radius: 3px;
+            border-radius: 4px;
             font-size: 12px;
-            float: right;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .copy-btn:hover {
+            background: #cc0000;
         }
         footer {
             margin-top: 50px;
@@ -69,45 +82,84 @@
 </head>
 <body>
 
-    <!-- Hình đại diện -->
     <img src="anhcho.jpg" alt="Avatar" class="profile-img">
     
     <h1>Thạnh Mê Hack Script</h1>
+    <h1>Tiktok: Thạnh Mê Hack</h1>
+    <h1>UserID: @phuoc.thanh1409</h1>
 
     <div class="container">
         <!-- Ngăn 1: Thạnh Script -->
         <div class="section">
             <h2>Thạnh Script</h2>
+            
             <div class="script-item">
-                <span>Thạnh Executor</span>
-                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/qN0tgloU/raw\'))()')">Copy</button>
+                <span class="script-name">Thạnh Executor</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/qN0tgloU/raw\'))()')">COPY</button>
             </div>
+
             <div class="script-item">
-                <span>Thạnh Script V1</span>
-                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/JxCcH9au/raw\'))()')">Copy</button>
-</div>
+                <span class="script-name">Thạnh Script V1</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/JxCcH9au/raw\'))()')">COPY</button>
+            </div>
+
+            <div class="script-item">
+                <span class="script-name">Thạnh Script V2</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/YJO4ede5/raw\'))()')">COPY</button>
+            </div>
+
+            <div class="script-item">
+                <span class="script-name">Thạnh Script V2.5</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/ZXiEzNXI/raw\'))()')">COPY</button>
+            </div>
+
+            <div class="script-item">
+                <span class="script-name">Thạnh Script V3</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/bCVymU3G/raw\'))()')">COPY</button>
+            </div>
         </div>
 
         <!-- Ngăn 2: Script Thú Vị -->
         <div class="section">
             <h2>Script Thú Vị</h2>
+            
             <div class="script-item">
-                <span>Infinite Yield</span>
-                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/Edgeiy/infiniteyield/master/source\'))()')">Copy</button>
+                <span class="script-name">Infinite Yield</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://raw.githubusercontent.com/Edgeiy/infiniteyield/master/source\'))()')">COPY</button>
             </div>
-            <!-- Bạn có thể thêm script mới ở dưới đây -->
+
+            <div class="script-item">
+                <span class="script-name">Lưu vị trí hồi sinh</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/GjJryiqh/raw\'))()')">COPY</button>
+            </div>
+
+            <div class="script-item">
+                <span class="script-name">Tua ngược 10s trước</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/hwrdB21v/raw\'))()')">COPY</button>
+            </div>
+
+            <div class="script-item">
+                <span class="script-name">Tool tổng hợp</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/dbumGHQY/raw\'))()')">COPY</button>
+            </div>
+
+            <div class="script-item">
+                <span class="script-name">Đi theo người khác</span>
+                <button class="copy-btn" onclick="copyToClipboard('loadstring(game:HttpGet(\'https://pastefy.app/DeshOdt2/raw\'))()')">COPY</button>
+            </div>
         </div>
     </div>
 
-    <!-- Bản quyền -->
     <footer>
-        &copy; 2026 Bản quyền thuộc về Thạnh Mê Hack.
+        &copy; 2026 Bản quyền thuộc về Thạnh.
     </footer>
 
     <script>
         function copyToClipboard(text) {
             navigator.clipboard.writeText(text).then(() => {
-                alert("Đã copy loadstring!");
+                alert("Đã copy lệnh Loadstring!");
+            }).catch(err => {
+                console.error('Lỗi khi copy: ', err);
             });
         }
     </script>
